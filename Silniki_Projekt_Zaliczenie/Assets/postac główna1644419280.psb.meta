@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: 377bbe3fb57f9b140b43e9ddde9df40f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: "glowa gB\uFFFDwna"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 618
+      y: 4
+      width: 288
+      height: 316
+    spriteID: 439eba9724839f04dae881ade6c0b114
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -133, y: -1636}
+  - name: 'reka przod '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 299
+      y: 599
+      width: 265
+      height: 515
+    spriteID: d1eb805b3abeb764f83667c3022c5acb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -330, y: -548}
+  - name: lancuch
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 618
+      y: 328
+      width: 72
+      height: 600
+    spriteID: e6c1e6f5de40c01469db741c3312c0c4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -59, y: -329}
+  - name: 'kula '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1613
+      width: 46
+      height: 90
+    spriteID: 4f4da47f25b842f489cbe2d089171495
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -678, y: 1033}
+  - name: kusarigama
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 299
+      y: 1590
+      width: 292
+      height: 376
+    spriteID: 5456cfe317e09dd4bace10eae5a4776e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -155, y: 690}
+  - name: "noga gB\uFFFDwny"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 287
+      height: 780
+    spriteID: 743753c161c28f34295fc2cc0d93afed
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -580, y: -478}
+  - name: tylow
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 299
+      y: 4
+      width: 311
+      height: 587
+    spriteID: a57f6d53c275b894e86af473b932b381
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -419, y: -1099}
+  - name: "reka tyl gB\uFFFDwna"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 299
+      y: 1122
+      width: 282
+      height: 460
+    spriteID: a832261485925804388b635f12140a9a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -466, y: -70}
+  - name: noga tyl glowna
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 792
+      width: 250
+      height: 813
+    spriteID: d3662d769ae7b584f9e262a3eee4ede4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -742, y: 290}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 1535, y: 2048}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 1024
+  textureActualHeight: 2048
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: "glowa gB\uFFFDwna"
+    spriteName: "glowa gB\uFFFDwna"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 439eba9724839f04dae881ade6c0b114
+    layerID: 0
+    mosaicPosition: {x: 618, y: 4}
+  - name: 'reka przod '
+    spriteName: 'reka przod '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d1eb805b3abeb764f83667c3022c5acb
+    layerID: -1376910548
+    mosaicPosition: {x: 299, y: 599}
+  - name: lancuch
+    spriteName: lancuch
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e6c1e6f5de40c01469db741c3312c0c4
+    layerID: 1879946158
+    mosaicPosition: {x: 618, y: 328}
+  - name: 'kula '
+    spriteName: 'kula '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4f4da47f25b842f489cbe2d089171495
+    layerID: 1884133335
+    mosaicPosition: {x: 4, y: 1613}
+  - name: kusarigama
+    spriteName: kusarigama
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5456cfe317e09dd4bace10eae5a4776e
+    layerID: 869145021
+    mosaicPosition: {x: 299, y: 1590}
+  - name: "noga gB\uFFFDwny"
+    spriteName: "noga gB\uFFFDwny"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 743753c161c28f34295fc2cc0d93afed
+    layerID: -1696479877
+    mosaicPosition: {x: 4, y: 4}
+  - name: tylow
+    spriteName: tylow
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a57f6d53c275b894e86af473b932b381
+    layerID: 802143593
+    mosaicPosition: {x: 299, y: 4}
+  - name: "reka tyl gB\uFFFDwna"
+    spriteName: "reka tyl gB\uFFFDwna"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a832261485925804388b635f12140a9a
+    layerID: -1681288974
+    mosaicPosition: {x: 299, y: 1122}
+  - name: noga tyl glowna
+    spriteName: noga tyl glowna
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d3662d769ae7b584f9e262a3eee4ede4
+    layerID: 1595517240
+    mosaicPosition: {x: 4, y: 792}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: "postac g\u0142\xF3wna1644419280 Texture"
+  prefabAssetName: "postac g\u0142\xF3wna1644419280 Prefab"
+  spriteLibAssetName: "postac g\u0142\xF3wna1644419280 Sprite Lib"
+  secondarySpriteTextures: []
