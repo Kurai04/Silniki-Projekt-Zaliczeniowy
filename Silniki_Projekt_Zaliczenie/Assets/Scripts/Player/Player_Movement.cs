@@ -17,7 +17,6 @@ public class Player_Movement : MonoBehaviour
     [SerializeField] LayerMask groundCheck;
     [SerializeField] float dashDistance = 2000f;
     [SerializeField] float dashCooldown = 2f;
-    [SerializeField] float fullGravity = 5f;
 
     private Rigidbody2D rigidBody;
     private PlayerInput playerInput;
