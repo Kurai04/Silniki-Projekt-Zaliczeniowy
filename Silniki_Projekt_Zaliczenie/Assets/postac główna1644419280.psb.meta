@@ -106,13 +106,13 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: kregoslup
-      position: {x: 133.98328, y: 40.208252, z: 0}
-      rotation: {x: 0, y: 0, z: 0.7201328, w: -0.69383633}
-      length: 323.29642
+      position: {x: 151.94812, y: 25.23767, z: 0}
+      rotation: {x: 0, y: 0, z: -0.74056494, w: 0.6719848}
+      length: 309.56006
       parentId: -1
     - name: glowa
-      position: {x: -48.710903, y: 1.6704807, z: 0}
-      rotation: {x: 0, y: 0, z: -0.99966055, w: 0.026054975}
+      position: {x: -61.88211, y: -20.57753, z: 0}
+      rotation: {x: 0, y: 0, z: -0.9984339, w: 0.055945337}
       length: 200.63055
       parentId: 0
     spriteOutline: []
@@ -1313,19 +1313,19 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: dlon przod
-      position: {x: 227.50388, y: 0.00019503507, z: 0}
-      rotation: {x: 0, y: 0, z: -0.00918865, w: 0.9999578}
-      length: 61.020184
+      position: {x: 227.50363, y: 0.00006347505, z: 0}
+      rotation: {x: 0, y: 0, z: -0.009188852, w: 0.9999578}
+      length: 61.0202
       parentId: 1
     - name: przedramie przod
-      position: {x: 210.80661, y: -0.000018195662, z: 0}
-      rotation: {x: 0, y: 0, z: -0.28625232, w: 0.95815426}
-      length: 227.50377
+      position: {x: 210.80693, y: -0.0025536774, z: 0}
+      rotation: {x: 0, y: 0, z: -0.2862579, w: 0.9581526}
+      length: 227.50381
       parentId: 2
     - name: ramie przod
-      position: {x: 210.90344, y: 486.6256, z: 0}
-      rotation: {x: 0, y: 0, z: 0.72943527, w: -0.68404996}
-      length: 210.80684
+      position: {x: 210.90137, y: 486.62402, z: 0}
+      rotation: {x: 0, y: 0, z: -0.72943115, w: 0.68405426}
+      length: 210.80699
       parentId: -1
     spriteOutline: []
     vertices:
@@ -2467,19 +2467,19 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: stopa przod
-      position: {x: 303.04233, y: 0.000047847127, z: 0}
-      rotation: {x: 0, y: 0, z: -0.47141188, w: 0.8819132}
+      position: {x: 303.0423, y: 0.00003585427, z: 0}
+      rotation: {x: 0, y: 0, z: -0.47141203, w: 0.88191307}
       length: 114.22087
       parentId: 1
     - name: lydka przod
-      position: {x: 295.57782, y: 0.00002385772, z: 0}
-      rotation: {x: 0, y: 0, z: 0.055243533, w: 0.998473}
+      position: {x: 295.57776, y: 0.00013276075, z: 0}
+      rotation: {x: 0, y: 0, z: 0.055243745, w: 0.9984729}
       length: 303.0423
       parentId: 2
     - name: udo przod
-      position: {x: 202.9497, y: 702.91736, z: 0}
-      rotation: {x: 0, y: 0, z: -0.7430899, w: 0.6691917}
-      length: 295.57785
+      position: {x: 202.94806, y: 702.9154, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7430896, w: 0.66919196}
+      length: 295.57782
       parentId: -1
     spriteOutline: []
     vertices:
@@ -3609,14 +3609,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: krzyz
-      position: {x: 323.29645, y: -0.00031218308, z: 0}
-      rotation: {x: 0, y: -0, z: -0.012423074, w: -0.9999229}
-      length: 243.45003
+      position: {x: 309.56, y: 0.0000045515553, z: 0}
+      rotation: {x: 0, y: 0, z: 0.042328138, w: 0.9991038}
+      length: 243.45001
       parentId: 1
     - name: kregoslup
-      position: {x: 166.98328, y: 577.20825, z: 0}
-      rotation: {x: 0, y: 0, z: 0.7201328, w: -0.69383633}
-      length: 323.29642
+      position: {x: 184.94812, y: 562.2377, z: 0}
+      rotation: {x: 0, y: 0, z: -0.74056494, w: 0.6719848}
+      length: 309.56006
       parentId: -1
     spriteOutline: []
     vertices:
@@ -4305,19 +4305,19 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: dlon tyl
-      position: {x: 161.93343, y: -0.0000009945215, z: 0}
-      rotation: {x: 0, y: 0, z: 0.021723673, w: 0.9997641}
-      length: 70.33951
+      position: {x: 161.93289, y: 0.00010299386, z: 0}
+      rotation: {x: 0, y: 0, z: -0.02172344, w: -0.999764}
+      length: 70.3395
       parentId: 1
     - name: przedramie tyl
-      position: {x: 206.09596, y: 0.000014970807, z: 0}
-      rotation: {x: 0, y: 0, z: -0.16457643, w: 0.98636436}
-      length: 161.93341
+      position: {x: 206.09576, y: -0.000020256412, z: 0}
+      rotation: {x: 0, y: 0, z: -0.16457625, w: 0.9863644}
+      length: 161.93335
       parentId: 2
     - name: ramie tyl
-      position: {x: 240.78851, y: 415.4718, z: 0}
-      rotation: {x: 0, y: 0, z: 0.81024307, w: -0.58609414}
-      length: 206.09584
+      position: {x: 240.78687, y: 415.47046, z: 0}
+      rotation: {x: 0, y: 0, z: 0.8102435, w: -0.5860935}
+      length: 206.09583
       parentId: -1
     spriteOutline: []
     vertices:
@@ -5293,19 +5293,19 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: stopa tyl
-      position: {x: 320.4134, y: -7.3011146, z: 0}
-      rotation: {x: 0, y: 0, z: -0.62818605, w: 0.77806324}
-      length: 108.468994
+      position: {x: 320.41324, y: -7.3009987, z: 0}
+      rotation: {x: 0, y: 0, z: -0.628186, w: 0.7780632}
+      length: 108.46895
       parentId: 1
     - name: lydka tyl
-      position: {x: 253.58556, y: -0.15983908, z: 0}
-      rotation: {x: 0, y: 0, z: 0.03281143, w: 0.9994616}
-      length: 309.69348
+      position: {x: 253.58563, y: -0.15979835, z: 0}
+      rotation: {x: 0, y: 0, z: 0.032811463, w: 0.9994616}
+      length: 309.6934
       parentId: 2
     - name: udo tyl
-      position: {x: 157.46912, y: 651.7096, z: 0}
-      rotation: {x: 0, y: 0, z: -0.7099802, w: 0.70422167}
-      length: 273.6022
+      position: {x: 157.46747, y: 651.70776, z: 0}
+      rotation: {x: 0, y: 0, z: -0.70997995, w: 0.70422196}
+      length: 273.60214
       parentId: -1
     spriteOutline: []
     vertices:
@@ -6532,28 +6532,28 @@ ScriptedImporter:
   characterData:
     bones:
     - name: kregoslup
-      position: {x: 884.9833, y: 1680.2083, z: 0}
-      rotation: {x: 0, y: 0, z: 0.7201328, w: -0.69383633}
-      length: 323.29636
+      position: {x: 902.9481, y: 1665.2377, z: 0}
+      rotation: {x: 0, y: 0, z: -0.74056494, w: 0.6719848}
+      length: 309.56006
       parentId: -1
     - name: krzyz
-      position: {x: 323.2964, y: -0.00030894257, z: 0}
-      rotation: {x: 0, y: 0, z: -0.012423081, w: -0.9999229}
+      position: {x: 309.56006, y: 0.00003236302, z: 0}
+      rotation: {x: 0, y: 0, z: 0.042328138, w: 0.9991038}
       length: 243.45
       parentId: 0
     - name: ramie przod
-      position: {x: 48.226654, y: -43.31657, z: 0}
-      rotation: {x: 0, y: 0, z: -0.013501881, w: 0.99990886}
-      length: 210.80685
+      position: {x: 37.572502, y: -59.687702, z: 0}
+      rotation: {x: 0, y: 0, z: 0.01641996, w: 0.9998652}
+      length: 210.807
       parentId: 0
     - name: przedramie przod
-      position: {x: 210.80687, y: 0.00007371066, z: 0}
-      rotation: {x: 0, y: 0, z: -0.28625232, w: 0.95815426}
-      length: 227.50378
+      position: {x: 210.80695, y: -0.0024776186, z: 0}
+      rotation: {x: 0, y: 0, z: -0.2862579, w: 0.95815265}
+      length: 227.50383
       parentId: 2
     - name: dlon przod
-      position: {x: 227.50383, y: 0.00004332696, z: 0}
-      rotation: {x: 0, y: 0, z: -0.009188554, w: 0.9999578}
+      position: {x: 227.50374, y: 0.00009932908, z: 0}
+      rotation: {x: 0, y: 0, z: -0.009188817, w: 0.9999578}
       length: 61.020195
       parentId: 3
     - name: udo przod
@@ -6562,13 +6562,13 @@ ScriptedImporter:
       length: 295.57785
       parentId: 1
     - name: lydka przod
-      position: {x: 295.57782, y: 0.000034706693, z: 0}
-      rotation: {x: 0, y: 0, z: 0.055243526, w: 0.9984729}
-      length: 303.0423
+      position: {x: 295.57782, y: 0.00010011938, z: 0}
+      rotation: {x: 0, y: 0, z: 0.055243805, w: 0.9984729}
+      length: 303.04233
       parentId: 5
     - name: stopa przod
-      position: {x: 303.0423, y: 0.00002674766, z: 0}
-      rotation: {x: 0, y: 0, z: -0.47141188, w: 0.8819132}
+      position: {x: 303.04233, y: -0.000018935107, z: 0}
+      rotation: {x: 0, y: 0, z: -0.4714121, w: 0.88191307}
       length: 114.22087
       parentId: 6
     - name: udo tyl
@@ -6587,23 +6587,23 @@ ScriptedImporter:
       length: 108.46896
       parentId: 9
     - name: ramie tyl
-      position: {x: 68.194244, y: 123.42618, z: 0}
-      rotation: {x: 0, y: 0, z: -0.14011045, w: 0.9901359}
-      length: 206.09587
+      position: {x: 47.533245, y: 107.95117, z: 0}
+      rotation: {x: 0, y: 0, z: 0.110431015, w: -0.99388385}
+      length: 206.09586
       parentId: 0
     - name: przedramie tyl
-      position: {x: 206.096, y: 0.0000021228807, z: 0}
-      rotation: {x: 0, y: 0, z: -0.16457641, w: 0.98636436}
-      length: 161.93343
+      position: {x: 206.09575, y: -0.000048627084, z: 0}
+      rotation: {x: 0, y: 0, z: -0.16457625, w: 0.98636436}
+      length: 161.93336
       parentId: 11
     - name: dlon tyl
-      position: {x: 161.93338, y: 0.0000030881783, z: 0}
-      rotation: {x: 0, y: 0, z: 0.021723632, w: 0.999764}
+      position: {x: 161.93329, y: 0.00010107324, z: 0}
+      rotation: {x: 0, y: 0, z: -0.02172341, w: -0.999764}
       length: 70.339516
       parentId: 12
     - name: glowa
-      position: {x: -48.710934, y: 1.6704941, z: 0}
-      rotation: {x: 0, y: -0, z: -0.99966055, w: 0.026054967}
+      position: {x: -61.882095, y: -20.577486, z: 0}
+      rotation: {x: 0, y: 0, z: -0.9984339, w: 0.055945337}
       length: 200.63055
       parentId: 0
     parts:
