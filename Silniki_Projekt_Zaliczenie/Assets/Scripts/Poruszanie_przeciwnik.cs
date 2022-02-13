@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Poruszanie_przeciwnik : MonoBehaviour
 {
-    [SerializeField] private float speed = 2f;
+    [SerializeField] private float speed = -2f;
     [SerializeField] private LayerMask ground;
     private Vector2 targetVelovity;
     private Rigidbody2D rigidbody;
@@ -33,28 +33,21 @@ public class Poruszanie_przeciwnik : MonoBehaviour
         //startOfLine = new Vector2(linePositionX, 0);
         Movement();
         Edge();
-        //Flip();
         Debug.Log(rigidbody.velocity.x);
     }
     private void Movement()
     {
-        if (rigidbody.velocity.x>-speed || rigidbody.velocity.x<speed)
-        {
-            rigidbody.velocity += targetVelovity;
-        }
-        
+        if(rigidbody.velocity.x<=speed && rigidbody.velocity.x>=-speed)
+        rigidbody.velocity += targetVelovity;
     }
     private void Flip()
-    {
-        
-                
+    {  
             transform.Rotate(0, 180, 0);
             isFacingRight = !isFacingRight;
-           // startOfLine = new Vector2(-linePositionX, 0);                          
     }
     private void Edge()
     {
-        var raycast = Physics2D.RaycastAll(transform.position+startOfLine, Vector2.down,lineLenght,ground);       
+        var raycast = Physics2D.RaycastAll(transform.position+startOfLine, Vector2.down,lineLenght,ground);
         if (raycast.Length<1)
         {
             rigidbody.velocity += new Vector2(-rigidbody.velocity.x, 0f);
