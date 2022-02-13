@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2183353338092655509}
   - component: {fileID: 8748134546560092620}
   - component: {fileID: 5125075393552776743}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mur
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

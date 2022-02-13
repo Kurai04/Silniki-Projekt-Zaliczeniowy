@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7911430460037878055}
   - component: {fileID: 7911430460037878054}
   - component: {fileID: 1499129540350587055}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ulica
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3415216588927024475}
   - component: {fileID: 6678953478171886955}
   - component: {fileID: 5740296185698920958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Budynek2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
