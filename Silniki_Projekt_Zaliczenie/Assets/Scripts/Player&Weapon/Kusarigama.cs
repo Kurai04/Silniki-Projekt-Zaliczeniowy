@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 public class Kusarigama : MonoBehaviour
 {
+    public bool IsOnTarget = false;
+
     [SerializeField] private Transform throwingPoint;
     [SerializeField] private float weaponTicksForPath = 30f;
     [SerializeField] private Throw throwWeapon;
@@ -33,5 +35,6 @@ public class Kusarigama : MonoBehaviour
             yield return null;
         }
         gameObject.transform.position = throwWeapon.ThrowingPath.point;
+        IsOnTarget = true;
     }
 }
