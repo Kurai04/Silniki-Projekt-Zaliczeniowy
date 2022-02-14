@@ -510,7 +510,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 272713624}
   m_LocalRotation: {x: 0, y: 1e-45, z: 0, w: 1}
-  m_LocalPosition: {x: -0.15, y: 1.22, z: -0.9537802}
+  m_LocalPosition: {x: -0.19, y: 1.22, z: -0.9537802}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 379260364}
@@ -981,7 +981,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 1e-45, z: 0, w: 1}
-  m_LocalPosition: {x: -0.15, y: 1.22, z: -5.95378}
+  m_LocalPosition: {x: -0.19, y: 1.22, z: -10.95378}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1066,7 +1066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8367928060187961801, guid: 635d4b6bc30359a4e9d2eb49cc035c85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 59.3
+      value: -0.07
       objectReference: {fileID: 0}
     - target: {fileID: 8367928060187961801, guid: 635d4b6bc30359a4e9d2eb49cc035c85, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1607,14 +1607,18 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1183633304}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.15, y: 1.22, z: -0.9537802}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -0.19, y: 1.22, z: -0.9537802}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 677962062}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  - {fileID: 1158273009}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1183633308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1755,8 +1759,28 @@ MonoBehaviour:
     m_Bits: 64
   dashDistance: 50
   dashCooldown: 2
---- !u!114 &1183633310
-MonoBehaviour:
+  fullGravity: 5
+  animator: {fileID: 1158273011}
+--- !u!1 &1787580029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1787580032}
+  - component: {fileID: 1787580031}
+  - component: {fileID: 1787580030}
+  m_Layer: 6
+  m_Name: Platform_Placeholder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1787580030
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}

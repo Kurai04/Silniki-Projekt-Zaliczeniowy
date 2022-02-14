@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 public class Player_Movement : MonoBehaviour
 {
     [SerializeField] float Acceleration = 100f;
@@ -17,6 +18,8 @@ public class Player_Movement : MonoBehaviour
     [SerializeField] LayerMask groundCheck;
     [SerializeField] float dashDistance = 2000f;
     [SerializeField] float dashCooldown = 2f;
+    [SerializeField] float fullGravity = 5f;
+    [SerializeField] Animator animator;
 
     private Rigidbody2D rigidBody;
     private PlayerInput playerInput;
@@ -33,12 +36,12 @@ public class Player_Movement : MonoBehaviour
     private void Move(float _speed, float _maxSpeed)
     {
         var collider = Physics2D.OverlapCircleAll(rigidBody.position + new Vector2(0f, CircleCastOffset), radious, groundCheck);
-        //Ograniczenie zmian szybkoœci na gracza kiedy jest w powietrzu
+        //Ograniczenie zmian szybkoï¿½ci na gracza kiedy jest w powietrzu
         _speed = collider.Length == 0
             ? Acceleration * AirControlModifier
             : Acceleration;
         rigidBody.velocity = new Vector2(Mathf.Clamp(rigidBody.velocity.x, -_maxSpeed, _maxSpeed), rigidBody.velocity.y);
-            //Jeœli chce zmieniæ kierunek ruchu dodajemy odwrotn¹ prêdkoœæ do gracza ¿eby j¹ wyzerowaæ i wtedy pozosta³a prêdkoœæ jest dodana jak w przypadku kiedy zaczêliœmy stacjonarnie
+            //Jeï¿½li chce zmieniï¿½ kierunek ruchu dodajemy odwrotnï¿½ prï¿½dkoï¿½ï¿½ do gracza ï¿½eby jï¿½ wyzerowaï¿½ i wtedy pozostaï¿½a prï¿½dkoï¿½ï¿½ jest dodana jak w przypadku kiedy zaczï¿½liï¿½my stacjonarnie
             if (inputMovement > 0 && rigidBody.velocity.x < 0)
             {
                 rigidBody.velocity += new Vector2(inputMovement * _speed * Time.deltaTime - rigidBody.velocity.x, 0f);
@@ -128,6 +131,7 @@ public class Player_Movement : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        animator.SetFloat("Speed", Mathf.Abs(inputMovement));
         Move(Acceleration, MaxSpeed);
         Flip();
         StickToSurface();
