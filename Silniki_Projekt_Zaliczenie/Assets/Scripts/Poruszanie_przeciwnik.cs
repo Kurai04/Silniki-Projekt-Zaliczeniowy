@@ -8,7 +8,7 @@ public class Poruszanie_przeciwnik : MonoBehaviour
     [SerializeField] private LayerMask ground;
     private Vector2 targetVelovity;
     private Rigidbody2D rigidbody;
-    private bool isFacingRight = false;
+    private bool isFacingRight = true;
     private Vector3 startOfLine;
     private float linePositionX = -1f;
     [SerializeField] private float lineLenght = 5f;
@@ -27,17 +27,17 @@ public class Poruszanie_przeciwnik : MonoBehaviour
         }
         else
         {
-            startOfLine = new Vector2(10f, 0f);
+            startOfLine = new Vector2(1f, 0f);
         }
-        targetVelovity = new Vector2(-speed, 0f);
-        //startOfLine = new Vector2(linePositionX, 0);
+        targetVelovity = new Vector2(speed, 0f);
         Movement();
         Edge();
         Debug.Log(rigidbody.velocity.x);
     }
     private void Movement()
     {
-        if(rigidbody.velocity.x<=speed && rigidbody.velocity.x>=-speed)
+        var maxSpeed = 10;
+        if (rigidbody.velocity.x <= maxSpeed&&rigidbody.velocity.x>=-maxSpeed)
         rigidbody.velocity += targetVelovity;
     }
     private void Flip()
